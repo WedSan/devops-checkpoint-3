@@ -28,7 +28,7 @@ Grupo de recursos criado com os seguintes parâmetros:
 - Nome: `devops-checkpoint-2`
 - Região: `West US 2`
 
-📸 [Print da tela](https://raw.githubusercontent.com/WedSan/devops-checkpoint-3/refs/heads/main/assets/print_step_4.png)
+📸 ![Print da tela](https://raw.githubusercontent.com/WedSan/devops-checkpoint-3/refs/heads/main/assets/print_step_4.png)
 
 ---
 
@@ -37,7 +37,7 @@ ACR criado com:
 - Nome: `devopscheckpoint2acr`
 - SKU: `Basic`
 
-📸 [Print da tela](https://raw.githubusercontent.com/WedSan/devops-checkpoint-3/refs/heads/main/assets/print_step_5.png)
+📸 ![Print da tela](https://raw.githubusercontent.com/WedSan/devops-checkpoint-3/refs/heads/main/assets/print_step_5.png)
 
 ---
 
@@ -65,28 +65,28 @@ Usuário administrador do ACR habilitado para facilitar o push da imagem.
 ### 10. Criação da Imagem Docker
 Imagem construída a partir do `Dockerfile` do projeto.
 
-📸 [Print da tela](https://raw.githubusercontent.com/WedSan/devops-checkpoint-3/refs/heads/main/assets/print_step_10.png)
+📸 ![Print da tela](https://raw.githubusercontent.com/WedSan/devops-checkpoint-3/refs/heads/main/assets/print_step_10.png)
 
 ---
 
 ### 11. Aplicação da Tag v1
 Imagem versionada com a tag `1.0` invés de `v1`, por questão de costume.
 
-📸 [Print da tela](https://raw.githubusercontent.com/WedSan/devops-checkpoint-3/refs/heads/main/assets/print_step_10.png)
+📸 ![Print da tela](https://raw.githubusercontent.com/WedSan/devops-checkpoint-3/refs/heads/main/assets/print_step_10.png)
 
 ---
 
 ### 12. Push da Imagem para o ACR
 Imagem com tag `1.0` enviada com sucesso ao Azure Container Registry.
 
-📸 [Print da tela](https://raw.githubusercontent.com/WedSan/devops-checkpoint-3/refs/heads/main/assets/print_step_12.png)
+📸 ![Print da tela](https://raw.githubusercontent.com/WedSan/devops-checkpoint-3/refs/heads/main/assets/print_step_12.png)
 
 ---
 
 ### 13. Listagem dos Registros no ACR
 Comando para listar o ACR no formato de tabela executado:
 
-📸 [Print da tela](https://raw.githubusercontent.com/WedSan/devops-checkpoint-3/refs/heads/main/assets/print_step_13.png)
+📸 ![Print da tela](https://raw.githubusercontent.com/WedSan/devops-checkpoint-3/refs/heads/main/assets/print_step_13.png)
 
 ---
 
@@ -101,7 +101,7 @@ Container criado com as configurações:
 - IP Público
 - Portas expostas: 3000, 80 e 8080
 
-📸 [Print da tela](https://raw.githubusercontent.com/WedSan/devops-checkpoint-3/refs/heads/main/assets/print_step_14.png)
+📸 ![Print da tela](https://raw.githubusercontent.com/WedSan/devops-checkpoint-3/refs/heads/main/assets/print_step_14.png)
 
 ---
 
